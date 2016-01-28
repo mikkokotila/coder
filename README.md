@@ -1,7 +1,16 @@
 # coder
-###### coding tool that is suitable especially for simpler coding tasks, such as coding tweet or single words. Because of the low cognitive load associated with coding boolean variables, coder supports only true or false statements. The user can choose which keys to use. Using 1 and 0 seems to be good as they are far part but at the same level in the keyboard, and also stats tools will widely eat up the resulting format as is. 
+###### coding tool that is suitable especially for simpler coding tasks, such as coding tweet or single words. 
+
+Because of the low cognitive load associated with coding boolean variables, coder supports only true or false statements. The user can choose which keys to use. Using 1 and 0 seems to be good as they are far part but at the same level in the keyboard, and also stats tools will widely eat up the resulting format as is. 
 
 Yes, in most cases you will be able to directly load the codebook in to a stats tool of your choice. 
+
+There are three files: 
+
+- this readme
+- coder.py (the program code)
+- sample.txt (2,000 tweets about privacy)
+
 
 1) copy the script to a folder /coder or something else and run the commands
 
