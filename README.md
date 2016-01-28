@@ -36,6 +36,9 @@ From here it can be converted in to a regular list format with newlines (line br
 In return you will get output like this: 
 
  '0', '1', '0', '0'
+ 
  '0', '1', '1', '0'
+
  '1', '1', '0', '1'
+
  '0', '1', '1', '0'
