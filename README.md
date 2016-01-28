@@ -5,11 +5,12 @@ Because of the low cognitive load associated with coding boolean variables, code
 
 Yes, in most cases you will be able to directly load the codebook in to a stats tool of your choice. 
 
-There are three files: 
+There are four files: 
 
 - this readme
 - coder.py (the program code)
 - sample.txt (2,000 tweets about privacy for testing purpose)
+- sample2.txt (2,000 words that are at least 5 characters long and are commonly used in Twitter)
 
 
 1) copy the script to a folder /coder or something else and run the commands
