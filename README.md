@@ -9,7 +9,7 @@ There are three files:
 
 - this readme
 - coder.py (the program code)
-- sample.txt (2,000 tweets about privacy)
+- sample.txt (2,000 tweets about privacy for testing purpose)
 
 
 1) copy the script to a folder /coder or something else and run the commands
@@ -17,7 +17,7 @@ There are three files:
    chmod +x coder.py
    touch codebook.txt 
 
-2) create a sample where each item to be coded 
+2) create a sample where each item to be coded is on its own individual line
 
 3) run the program by: 
 
