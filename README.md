@@ -3,7 +3,9 @@
 
 You need python 2 to run this. If you are on Mac OS X you most likely already have it. Just start Terminal and type: 
 
-    $ python
+    $ python -v
+
+If you get a response with something do with Python, that means you probably are running Python already. Just make sure that it's not a version starting with 3. 
 
 Because of the low cognitive load associated with coding boolean variables, coder supports only true or false statements. The user can choose which keys to use. Using 1 and 0 seems to be good as they are far part but at the same level in the keyboard, and also stats tools will widely eat up the resulting format as is. 
 
