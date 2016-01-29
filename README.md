@@ -32,7 +32,6 @@ https://github.com/mikkokotila/coder
 
 5. Change directory in shell to where you saved the files, using "cd C:\xxxx\yyy"
 
-6. Run "python coder.py" in shell
 
 NOTE: if you did not succeed with #2 above, then just copy the raw files to python directory and run #4 there
 
@@ -55,14 +54,14 @@ And two example sample sets:
 
 1) copy the script to a folder /coder or something else and run the commands
 
-   chmod +x coder.py
-   touch codebook.txt 
+    $ chmod +x coder.py
+    $ touch codebook.txt 
 
 2) create a sample where each item to be coded is on its own individual line
 
 3) run the program by: 
 
-   ./coder.py
+    $ ./coder.py
 
 ...and follow the on-screen sequence. 
 
@@ -72,7 +71,7 @@ After each coded snippet, results are stored in to the codebook.txt file. The ou
 
 From here it can be converted in to a regular list format with newlines (line breaks) easily. 
 
-   cat codebook.txt | tr ']' '\n' | tr '[' ' ' | sed 's/^,//g' | tr -s ' '
+    $ cat codebook.txt | tr ']' '\n' | tr '[' ' ' | sed 's/^,//g' | tr -s ' '
    
 In return you will get output like this: 
 
