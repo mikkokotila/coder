@@ -1,15 +1,46 @@
 # coder
 ###### coding tool that is suitable especially for simpler coding tasks, such as coding tweet or single words. 
 
-You need python 2 to run this. If you are on Mac OS X you most likely already have it. Just start Terminal and type: 
-
-    $ python -v
-
-If you get a response with something do with Python, that means you probably are running Python already. Just make sure that it's not a version starting with 3. 
-
 Because of the low cognitive load associated with coding boolean variables, coder supports only true or false statements. The user can choose which keys to use. Using 1 and 0 seems to be good as they are far part but at the same level in the keyboard, and also stats tools will widely eat up the resulting format as is. 
 
 Yes, in most cases you will be able to directly load the codebook in to a stats tool of your choice. 
+
+#### for MAC user
+
+You need python 2 to run this. If you are on Mac OS X you most likely already have it. Just start Terminal and type: 
+
+    $ python -v
+    
+If you get a response with something do with Python, that means you probably are running Python already. Just make sure that it's not a version starting with 3. If you don't get anything like that, then install Python 2.7:
+
+https://www.python.org/downloads/
+
+Once you've installed Python succesfully, run the command to check the version and you should be good to go.
+
+#### for WINDOWS user
+
+1. Download the 2.7.x version:
+https://www.python.org/downloads/windows/
+
+2. Find python.exe and add it to Windows PATH:
+http://showmedo.com/videotutorials/video?name=960000&fromSeriesID=96
+
+3. Copy the files:
+https://github.com/mikkokotila/coder
+
+4. Open windows shell by searching "cmd"
+
+5. Change directory in shell to where you saved the files, using "cd C:\xxxx\yyy"
+
+6. Run "python coder.py" in shell
+
+NOTE: if you did not succeed with #2 above, then just copy the raw files to python directory and run #4 there
+
+#### for LINUX users
+
+You have to know how this works. 
+
+## STARTING USING CODER
 
 There are two files you need for running coder: 
 
