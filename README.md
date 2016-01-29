@@ -40,7 +40,7 @@ NOTE: if you did not succeed with #2 above, then just copy the raw files to pyth
 
 You have to know how this works. 
 
-## STARTING USING CODER
+## START USING CODER
 
 There are two files you need for running coder: 
 
