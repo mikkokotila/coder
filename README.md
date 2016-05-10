@@ -72,10 +72,3 @@ After each coded snippet, results are stored in to the codebook.txt file. The ou
 From here it can be converted in to a regular list format with newlines (line breaks) easily using the below command. This will also correct common errors the coder may have performed.
 
     $ cat codebook.txt | sed -e "s/''/'0'/g" -e "s/, ,/, 0,/g" -e "s/10/0/g" -e "s/01/0/g" -e $'s/\], \[/\\\n/g' -e "s/'//g" -e 's/\[//g' -e 's/\]//g'
-   
-In return you will get output like this: 
-
-1, 0, 1, 0
-0, 0, 0, 1
-0, 0, 0, 1
-0, 0, 0, 1
